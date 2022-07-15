@@ -4,98 +4,172 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QUEICH Burgers</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./imagenes/icono.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/2f12cbd0aa.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>QUEICH Burgers | Tu mejor opcion a la hora de pedir comida!</title>
 </head>
 <body>
-    <header class="contenedorNumero1">
-        <nav class="navBar">             
-            <div class="cont-prin">
-                <img src="./imagenes/1f354.png" alt="logo">
-                <h1 class="tituloPrincipal">QUEICH Burgers</h1>
-            </div>    
-            <ul> 
-                <li><a class="diseñoA" href="#ubi">¿Donde estamos?</a></li>
-                <li><a class="diseñoA" href="#contac">Contactos</a></li>
-                <li><a class="diseñoA" href="#cat">Catalogo</a></li>          
-            </ul>
-        </nav>   
-    </header>
-    <section>
-        <div class="block-banner">
-            <img class="fondito" src="./imagenes/fondito.png" alt="banner">
-        </div>
-    </section>    
     <main>
-        <div class="contCata">
-            <h2 class="tituloSecundario">Catalogo de nuestro producto</h2>
-        </div class="contCata">
-        <div id="cat" class="containMain">
-            <div class="nombBurger">
-                <a href="./pages/simple.html">QUEICH simple con papas $300
-                <img src="./imagenes/hamburgesa1.png" alt="hamburgesa simple"></a>
+        <header class="contenedorNumero1">
+            <nav class="navBar">             
+                <div class="cont-prin">
+                    <img src="./imagenes/1f354.png" alt="logo">
+                    <h1 class="tituloPrincipal">QUEICH Burgers</h1>
+                </div>    
+                <ul> 
+                    <li><a class="diseñoA" href="#ubi">¿Donde estamos?</a></li>
+                    <li><a class="diseñoA" href="#contac">Contactos</a></li>
+                    <li><a class="diseñoA" href="#cat">Catalogo</a></li>          
+                </ul>
+            </nav>   
+        </header>
+        <section>
+            <div class="slider">
+                <ul>
+                    <li><img src="./imagenes/fondito.png" alt="hamburguesa sostenida"></li>
+                    <li><img src="./imagenes/fondito.png" alt="hamburguesa sostenida"></li>
+                    <li><img src="./imagenes/fondito.png" alt="hamburguesa sostenida"></li>
+                    <li><img src="./imagenes/fondito.png" alt="hamburguesa sostenida"></li>
+                </ul>
             </div>
-            <div class="nombBurger">
-                <a href="./pages/doble.html">QUEICH doble con papas $400
-                <img src="./imagenes/hamburgesa2.png" alt="hamburgesa doble"></a>
+        </section>    
+        <section>
+            <div class="contCata">
+                <h2 class="tituloSecundario">Catalogo de nuestro producto</h2>
             </div>
-            <div class="nombBurger">
-                <a href="./pages/triple.html">QUEICH triple con papas $500
-                <img src="./imagenes/hamburgesa3.png" alt="hamburgesa triple"></a>
+            <div id="cat" class="display-cat">
+                <div class="card-mod" style="width: 15rem;">
+                    <img src="./imagenes/bombastic.png" class="card-img-top" alt="hamburguesa bombastic">
+                    <div class="centrao">
+                        <h5 class="card-title-mod">BOMBASTIC</h5>
+                        <p class="card-text">Pan de papa, Doble Medallón de carne, Queso cheddar, Panceta, Cebolla caramelizada, Salsa barbacoa.</p>
+                        <a href="./pages/bombastic.html" class="btn-mod btn-primary">COMPRAR</a>
+                    </div>         
+                </div>
+                <div class="card-mod" style="width: 15rem;">
+                    <img src="./imagenes/la bestia.png" class="card-img-top" alt="hamburguesa la bestia">
+                    <div class="centrao">
+                        <h5 class="card-title-mod">LA BESTIA</h5>
+                        <p class="card-text">Pan de papa, Doble Medallon de carne, Piezas de pollo, Queso cheddar,  Alioli, Barbacoa.</p>
+                        <a href="./pages/bestia.html" class="btn-mod btn-primary">COMPRAR</a>
+                    </div>
+                </div>
+                <div class="card-mod" style="width: 15rem;">
+                    <img src="./imagenes/champi.png" class="card-img-top img-padding" alt="hamburguesa champi">
+                    <div class="centrao">
+                        <h5 class="card-title-mod">CHAMPI</h5>
+                        <p class="card-text">Pan de papa, Doble medallón de carne, Bacon, Queso Tybo,  Rúcula, Champignon, Alioli.</p>                        
+                        <a href="./pages/champi.html" class="btn-mod btn-primary">COMPRAR</a>    
+                    </div>
+                </div>
+                <div class="card-mod" style="width: 15rem;">
+                    <img src="./imagenes/chiken.png" class="card-img-top img-padding" alt="hamburguesa">
+                    <div class="centrao">
+                        <h5 class="card-title-mod">QUEICH CHICKEN</h5>
+                        <p class="card-text">Pan de papa, Piezas de pollo, Doble Queso cheddar, Bacon, Pimiento asado, Cebolla caramelizada, Alioli.</p>
+                        <a href="./pages/chicken.html" class="btn-mod btn-primary">COMPRAR</a>
+                    </div>
+                </div>
+                <div class="card-mod" style="width: 15rem;">
+                    <img src="./imagenes/doble bacon.png" class="card-img-top img-padding" alt="hamburguesa doble bacon">
+                    <div class="centrao">
+                        <h5 class="card-title-mod">DOBLE BACON</h5>
+                        <p class="card-text">Pan de papa, doble carne, doble cheddar, Doble bacon, Alioli.</p>
+                        <a href="./pages/doblebacon.html" class="btn-mod btn-primary">COMPRAR</a>
+                    </div>
+                </div>
+                <div class="card-mod" style="width: 15rem;">
+                    <img src="./imagenes/doble cuarto.png" class="card-img-top img-padding" alt="hamburguesa doble cuarto">
+                    <div class="centrao">
+                        <h5 class="card-title-mod">DOBLE CUARTO</h5>
+                        <p class="card-text">Pan de papa, doble medallon de carne, queso cheddar, pepinillos, salsa cuarto de libra.</p>
+                        <a href="./pages/doblecuarto.html" class="btn-mod btn-primary">COMPRAR</a>
+                    </div>
+                </div>
+                <div class="card-mod" style="width: 15rem;">
+                    <img src="./imagenes/big queich.png" class="card-img-top" alt="hamburguesa big queich">
+                    <div class="centrao">
+                        <h5 class="card-title-mod">BIG QUEICH</h5>
+                        <p class="card-text">Pan de papa, Doble o Cuadruple medallon de carne, Queso cheddar,  Pepinillos,  Lechuga, Salsa big.</p>
+                        <a href="./pages/bigqueich.html" class="btn-mod btn-primary">COMPRAR</a>
+                    </div>
+                </div>
+                <div class="card-mod" style="width: 15rem;">
+                    <img src="./imagenes/full onion.png" class="card-img-top img-padding" alt="hamburguesa full onion">
+                    <div class="centrao">
+                        <h5 class="card-title-mod">FULL ONION</h5>
+                        <p class="card-text">Pan de papa, doble medallon, queso cheddar, cebolla frita.</p>
+                        <a href="./pages/onion.html" class="btn-mod btn-primary">COMPRAR</a>
+                    </div>
+                </div>
+                <div class="card-mod" style="width: 15rem;">
+                    <img src="./imagenes/guacamole.png" class="card-img-top img-padding" alt="hamburguesa guacamole">
+                    <div class="centrao">
+                        <h5 class="card-title-mod">GUACAMOLE</h5>
+                        <p class="card-text">Pan de papa, Doble medallón de carne, Queso Tybo, Guacamole, Lechuga, Mayonesa de perejil y apio.</p>
+                        <a href="./pages/guacamole.html" class="btn-mod btn-primary">COMPRAR</a>
+                    </div>
+                </div>
+                <div class="card-mod" style="width: 15rem;">
+                    <img src="./imagenes/la scaloneta.png" class="card-img-top img-padding" alt="hamburguesa la scaloneta">
+                    <div class="centrao">
+                        <h5 class="card-title-mod">LA SCALONETA</h5>
+                        <p class="card-text">Pan de papa, Doble medallón de carne, Huevo, Lechuga, Tomate, Cebolla Cruda, Alioli.</p>
+                        <a href="./pages/scaloneta.html" class="btn-mod btn-primary">COMPRAR</a>
+                    </div>
+                </div>
             </div>
-            <div class="nombBurger">
-                <a href="./pages/cuadruple.html">QUEICH IV con papas $600
-                <img id="cuatro" src="./imagenes/hamburgesa4.png" alt="hamburgesa cuadruple"></a>
+        </section>
+        <section> 
+            <div class="contCata">
+                <h2 class="tituloSecundario" id="ubi">Ubicacion</h2>
             </div>
-            <div class="nombBurger">
-                <a href="./pages/lomito.html">QUEICH Lomo con papas $700
-                <img src="./imagenes/lomito.png" alt="lomito completo"></a>
+            <div class="contenedorUbi">
+                <p class="textUbi">Nuestro local se ubica en la ciudad de <a href="https://www.google.com.ar/maps/place/Queich+Burger/@-31.3456502,-64.2745959,17z/data=!3m1!4b1!4m5!3m4!1s0x94329df7e5a079b5:0x108e56999e3edecc!8m2!3d-31.3456688!4d-64.2724081">Cordoba capital, Barrio Arguello Lasalle, calle Ana Aslan 8028</a>:</p>
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2409.462332660398!2d-64.27345490983373!3d-31.34533600157052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329df7e5a079b5%3A0x108e56999e3edecc!2sQueich%20Burger!5e0!3m2!1ses-419!2sar!4v1651205157076!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="nombBurger">
-                <a href="./pages/bigqueich.html">Big QUEICH con papas $500
-                <img src="./imagenes/bigmac.png" alt="hamburgesa big queich"></a>
+        </section>
+        <section>
+            <div class="contCata">
+                <h2 class="tituloSecundario" id="contac">Contactos</h2>
+            </div>
+            <div class="containCont">
+                <h3 class="tituloTre">Comunicate con nosotros</h3>
+                <ul>
+                    <li><i class="fa-solid fa-square-phone-flip"></i>  Numero celular: 0351-153024744</li>
+                    <li><i class="fa-solid fa-envelope"></i>  Gmail: queichburgers@gmail.com</li>
+                    <li><i class="fa-brands fa-instagram-square"></i>  Instagram: <a class="ig-cont" href="https://www.instagram.com/queich.burgers/">queich.burgers</a></li>
+                </ul>
+            </div>
+        </section>
+        <footer class="pie">
+            <div class="grupo1">
+                <div class="box1">
+                    <img src="./imagenes/1f354.png" alt="logo">
+                    <h2 class="tituloPrincipal">QUEICH Burgers</h2>
+                </div>
+                <div class="box2">
+                    <h2 class="footerH">Sobre nosotros</h2>
+                    <P>Puedes encontrar mas informacion sobre nosotros en nuestra pagina de instagram! <a href="https://www.instagram.com/queich.burgers/">"PAGINA INSTAGRAM"</a></P>
+                </div>       
+            </div>
+            <div class="grupo2">
+                <small>&copy; 2022 <b>QUEICH Burgers</b> - Todos los Derechos Reservados</small>
+            </div>
+        </footer>
+        <div class="go-top-container">
+            <div class="go-top-button">
+              <i class="fas fa-chevron-up"></i>
             </div>
         </div>
     </main>
-    <section> 
-        <div class="contCata">
-            <h2 class="tituloSecundario" id="ubi">Ubicacion</h2>
-        </div>
-        <div class="contenedorUbi">
-            <p class="textUbi">Nuestro local se ubica en la ciudad de <a href="https://www.google.com.ar/maps/place/Queich+Burger/@-31.3456502,-64.2745959,17z/data=!3m1!4b1!4m5!3m4!1s0x94329df7e5a079b5:0x108e56999e3edecc!8m2!3d-31.3456688!4d-64.2724081">Cordoba capital, Barrio Arguello Lasalle, calle Ana Aslan 8028</a>:</p>
-            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2409.462332660398!2d-64.27345490983373!3d-31.34533600157052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329df7e5a079b5%3A0x108e56999e3edecc!2sQueich%20Burger!5e0!3m2!1ses-419!2sar!4v1651205157076!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </section>
-    <section>
-        <div class="contCata">
-            <h2 class="tituloSecundario" id="contac">Contactos</h2>
-        </div>
-        <div class="containCont">
-            <h3>Comunicate con nosotros</h3>
-            <ul>
-                <li>Numero celular: 0351-153024744</li>
-                <li>Gmail: queichburgers@gmail.com</li>
-                <li>Instagram: queich.burgers</li>
-            </ul>
-        </div>
-    </section>
-    <footer class="pie">
-        <div class="grupo1">
-            <div class="box1">
-                <h2 class="tituloPrincipal">QUEICH Burgers</h2>
-            </div>
-            <div class="box2">
-                <h2 class="footerH">Sobre nosotros</h2>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore, ab aliquid numquam asperiores voluptatibus maiores ullam explicabo molestiae dolorem tenetur, omnis vero iste earum. Totam placeat alias maxime velit!</P>
-            </div>       
-        </div>
-        <div class="grupo2">
-            <small>&copy; 2022 <b>QUEICH Burgers</b> - Todos los Derechos Reservados</small>
-        </div>
-    </footer>
+
+    <script src="gotop.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
